@@ -11,7 +11,7 @@
     <!-- <node name="spawn_pr2_leave_from_door" pkg="gazebo_ros" type="spawn_model" args="$(optenv ROBOT_INITIAL_POSE) -unpause -urdf -parm robot_description -x $(arg pr2_init_x -model pr2" respawn="false" output="screen" /> -->
 
     <!-- bringup script -->
-    <include file="$(find jsk_2020_04_pr2_cleanup)/launch/pr2_empty_world.launch">
+    <include file="$(find obinata_pr2_73b2_cleanup)/launch/pr2_empty_world.launch">
         <arg name="world_name" value="$(arg world_name)" />
     </include>
 
@@ -19,7 +19,7 @@
         doc="launch pr2_base_trajectory_action for debugging" />
 
     <!-- start pr2 robot without image processing-->
-    <!-- <include file="$(find jsk_2020_04_pr2_cleanup)/launch/pr2.launch" /> -->
+    <!-- <include file="$(find obinata_pr2_73b2_cleanup)/launch/pr2.launch" /> -->
     <!-- Startup PR2 without any mechanism controllers -->
     <!-- <include file="$(find pr2_gazebo)/launch/pr2_no_controllers.launch" pass_all_args="true"/> -->
     <!-- send pr2 urdf to param server -->
