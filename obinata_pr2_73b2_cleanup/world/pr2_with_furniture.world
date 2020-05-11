@@ -11,6 +11,7 @@
     </include>
     <include>
       <name>room73b2-hitachi-fiesta-refrigerator_0</name>
+      <!-- 最初にtexturedmodelsが読み込まれて，そこになかったらmodels？ -->
       <uri>model://room73b2-hitachi-fiesta-refrigerator_fixed</uri>
       <pose>2.0 0.0 0.0 0.0 0.0 3.14159</pose>
     </include>
